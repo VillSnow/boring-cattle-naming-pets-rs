@@ -1,5 +1,12 @@
 use rand::{rng, seq::IndexedRandom};
 
+/// ```
+/// use boring_cattle_naming_pets::get_random_name;
+///
+/// get_random_name("boring-cattle-naming-pets"); // -> "blue-fox-hugging-rabbit"
+/// get_random_name("BoringCattleNamingPets"); // -> "YoungSwanBringingBear"
+/// get_random_name("BORING CATTLE NAMING PETS"); // -> "GRAY DEER HOLDING TIGER"
+/// ```
 pub fn get_random_name(format: &str) -> String {
     let mut rng = rng();
     let adjectives = include_str!("boring-cattle-naming-pets-words/adjectives.txt")
