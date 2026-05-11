@@ -1,0 +1,3 @@
+[submodule "src/boring-cattle-naming-pets-words"]
+	path = src/boring-cattle-naming-pets-words
+	url = git@github.com:VillSnow/boring-cattle-naming-pets-words.git

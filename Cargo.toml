@@ -1,0 +1,8 @@
+[package]
+name = "boring-cattle-naming-pets"
+version = "0.1.0"
+edition = "2024"
+authors = ["VillSnow <vill.snow@gmail.com>"]
+
+[dependencies]
+rand = "0.10.1"
